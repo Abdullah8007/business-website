@@ -1,17 +1,18 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
 import { Link } from 'react-scroll';
+import '../styles/FooterStyle.css';
 
 const Footer = () => {
     return (
-        <div>
+        <div className='footer-section'>
             <div className="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
                 <div className="container py-5">
                     <div className="row g-5">
                         <div className="col-lg-4 col-md-12">
                             <h5 className="text-light mb-4">Address</h5>
-                            <p className="mb-2"><i className="fa fa-map-marker-alt me-3" />123 Street, New York, USA</p>
-                            <p className="mb-2"><i className="fa fa-phone-alt me-3" />+012 345 67890</p>
+                            <p className="mb-2"><i className="fa fa-map-marker-alt me-3" />Western Park, Kashimira, Mira Road(E), Thane-401107</p>
+                            <p className="mb-2"><i className="fa fa-phone-alt me-3" />+91 9359108007 | +91 9892488862</p>
                             <p className="mb-2"><i className="fa fa-envelope me-3" />info@example.com</p>
                             <div className="d-flex pt-2">
                                 <a className="btn btn-square btn-outline-secondary rounded-circle me-1" href><i className="fab fa-twitter" /></a>

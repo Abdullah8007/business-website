@@ -1,5 +1,6 @@
+/* eslint-disable no-undef */
 (function ($) {
-    "use strict";
+    
 
     // Spinner
     var spinner = function () {

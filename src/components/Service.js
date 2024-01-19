@@ -25,10 +25,10 @@ const Service = () => {
       <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
         <a className="service-item d-block rounded text-center h-100 p-4" href>
           <img className="img-fluid rounded mb-4" src="img/service-3.jpg" alt />
-          <h4 className="mb-0">SEO Optimization</h4>
+          <h4 className="mb-0">UI/UX Design</h4>
         </a>
       </div>
-      <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+      {/* <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
         <a className="service-item d-block rounded text-center h-100 p-4" href>
           <img className="img-fluid rounded mb-4" src="img/service-4.jpg" alt />
           <h4 className="mb-0">Social Marketing</h4>
@@ -45,7 +45,7 @@ const Service = () => {
           <img className="img-fluid rounded mb-4" src="img/service-6.jpg" alt />
           <h4 className="mb-0">PPC Advertising</h4>
         </a>
-      </div>
+      </div> */}
     </div>
   </div>
 </div>
