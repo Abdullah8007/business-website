@@ -3485,9 +3485,9 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-secondary:hover {
-    color: #000;
-    background-color: #777;
-    border-color: #777
+    color: #fff;
+    background-color: #009cff;
+    border-color: #009cff
 }
 
 .btn-check:focus+.btn-outline-secondary,
@@ -4775,7 +4775,7 @@ fieldset:disabled .btn {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.55)
+    color: #000
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,

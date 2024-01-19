@@ -26,8 +26,8 @@ const Footer = () => {
                             <a className="btn btn-link" href>About Us</a>
                             <a className="btn btn-link" href>Contact Us</a>
                             <a className="btn btn-link" href>Our Services</a>
-                            <a className="btn btn-link" href>Terms &amp; Condition</a>
-                            <a className="btn btn-link" href>Support</a>
+                            {/* <a className="btn btn-link" href>Terms &amp; Condition</a>
+                            <a className="btn btn-link" href>Support</a> */}
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <h5 className="text-light mb-4">Gallery</h5>
@@ -66,7 +66,7 @@ const Footer = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                                © <a href="/">Your Site Name</a>, All Right Reserved.
+                                © <a href="https://webgenius-eight.vercel.app" target='_blank' rel='noreferrer'>WebGenius</a>, All Right Reserved.
                             </div>
                             <div className="col-md-6 text-center text-md-end">
                                 Designed By <a href="https://abdullahjagrala.vercel.app">Abdullah Jagrala</a> | <a href="https://fuzailkaradia.vercel.app">Fuzail Karadia</a>

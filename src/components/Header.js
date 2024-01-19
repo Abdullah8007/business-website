@@ -15,7 +15,7 @@ const Header = () => {
 
     return (
       <div id='header'>
-        <div className="container-fluid d-md-none py-4 px-5 wow fadeIn" data-wow-delay="0.1s">
+        <div className="container-fluid py-4 px-5 wow fadeIn" data-wow-delay="0.1s">
           <div className="row align-items-center justify-content-center top-bar">
             <div className="col-lg-8 col-md-7 d-none d-lg-block">
               <div className="row">
@@ -66,12 +66,12 @@ const Header = () => {
                   <span className="navbar-toggler-icon" />
                 </button>
                 <div className="collapse navbar-collapse" id="navbarCollapse">
-                  <div className="navbar-nav ms-auto p-3 p-lg-0">
-                    <a href="index.html" className="nav-item nav-link active">Home</a>
-                    <a href="about.html" className="nav-item nav-link">About Us</a>
-                    <a href="service.html" className="nav-item nav-link">Services</a>
-                    <a href="project.html" className="nav-item nav-link">Projects</a>
-                    <a href="contact.html" className="nav-item nav-link">Contact Us</a>
+                  <div className="navbar-nav ms-auto p-3 p-lg-0 nav-link">
+                    <a href="/" className="nav-item nav-link active">Home</a>
+                    <a href="/" className="nav-item nav-link">About Us</a>
+                    <a href="/" className="nav-item nav-link">Services</a>
+                    <a href="/" className="nav-item nav-link">Projects</a>
+                    <a href="/" className="nav-item nav-link">Contact Us</a>
                   </div>
                 </div>
               </nav>
@@ -79,7 +79,6 @@ const Header = () => {
           </div>
         </header>
       </div>
-
     )
   };
 

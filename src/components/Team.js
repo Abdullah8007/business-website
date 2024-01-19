@@ -14,32 +14,32 @@ const Team = () => {
           <div className="row g-4">
             <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
               <div className="team-item text-center p-4">
-                <img className="img-fluid border rounded-circle w-75 p-2 mb-4" src="img/team-1.jpg" alt />
+                <img className="img-fluid border rounded-circle w-75 p-2 mb-4" src="img/fuzail.jpg" alt />
                 <div className="team-text">
                   <div className="team-title">
                     <h5>Fuzail Karadia</h5>
                     <span>Front-End Web Developer</span>
                   </div>
                   <div className="team-social">
-                    <a className="btn btn-square btn-primary rounded-circle" href><i className="fab fa-facebook-f" /></a>
-                    <a className="btn btn-square btn-primary rounded-circle" href><i className="fab fa-twitter" /></a>
-                    <a className="btn btn-square btn-primary rounded-circle" href><i className="fab fa-instagram" /></a>
+                    <a className="btn btn-square btn-primary rounded-circle" href='https://github.com/fuzail-karadia' target='_blank' rel='noreferrer'><i className="fab fa-github" /></a>
+                    <a className="btn btn-square btn-primary rounded-circle" href='https://www.linkedin.com/in/fuzail-karadia-0a2935230/' target='_blank' rel='noreferrer'><i className="fab fa-linkedin" /></a>
+                    <a className="btn btn-square btn-primary rounded-circle" href='https://www.instagram.com/fuzail.karadia/' target='_blank' rel='noreferrer'><i className="fab fa-instagram" /></a>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
               <div className="team-item text-center p-4">
-                <img className="img-fluid border rounded-circle w-75 p-2 mb-4" src="img/team-3.jpg" alt />
+                <img className="img-fluid border rounded-circle w-75 p-2 mb-4" src="img/abdullah.jpg" alt />
                 <div className="team-text">
                   <div className="team-title">
                     <h5>Abdullah Jagrala</h5>
                     <span>Front-End Web Developer</span>
                   </div>
                   <div className="team-social">
-                    <a className="btn btn-square btn-primary rounded-circle" href><i className="fab fa-facebook-f" /></a>
-                    <a className="btn btn-square btn-primary rounded-circle" href><i className="fab fa-twitter" /></a>
-                    <a className="btn btn-square btn-primary rounded-circle" href><i className="fab fa-instagram" /></a>
+                    <a className="btn btn-square btn-primary rounded-circle" href='https://github.com/Abdullah8007' target='_blank' rel='noreferrer'><i className="fab fa-github" /></a>
+                    <a className="btn btn-square btn-primary rounded-circle" href='https://www.linkedin.com/in/abdullah-jagrala-789234280/' target='_blank' rel='noreferrer'><i className="fab fa-linkedin" /></a>
+                    <a className="btn btn-square btn-primary rounded-circle" href='https://www.instagram.com/a_jagrala_007/' target='_blank' rel='noreferrer'><i className="fab fa-instagram" /></a>
                   </div>
                 </div>
               </div>
