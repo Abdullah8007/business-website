@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
+import { Link } from 'react-scroll';
 
 const Footer = () => {
     return (
@@ -73,7 +74,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <a href="/" className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i className="bi bi-arrow-up" /></a>
+            <button className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><Link to="header" spy={true} smooth={true} offset={0} duration={100}><i className="bi bi-arrow-up" /></Link></button>
         </div>
 
     )
