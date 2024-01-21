@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/alt-text */
 import { React, useState } from 'react';
@@ -27,11 +28,11 @@ const About = () => {
               </button>
               <div className="collapse navbar-collapse" id="navbarCollapse">
                 <div className="navbar-nav ms-auto p-3 p-lg-0 nav-link">
-                  <Link to='/home'><a href='/' className="nav-item nav-link active">Home</a></Link>
-                  <Link to='/about'><a href='/' className="nav-item nav-link">About</a></Link>
-                  <Link to='/service'><a href='/' className="nav-item nav-link">Services</a></Link>
-                  <Link to='/project'><a href='/' className="nav-item nav-link">Projects</a></Link>
-                  <Link to='/contact'><a href='/' className="nav-item nav-link">Contact</a></Link>
+                  <Link to='/home'><a className="nav-item nav-link active">Home</a></Link>
+                  <Link to='/about'><a className="nav-item nav-link">About</a></Link>
+                  <Link to='/service'><a className="nav-item nav-link">Services</a></Link>
+                  <Link to='/project'><a className="nav-item nav-link">Projects</a></Link>
+                  <Link to='/contact'><a className="nav-item nav-link">Contact</a></Link>
                 </div>
               </div>
             </nav>
@@ -39,7 +40,7 @@ const About = () => {
         </div>
       </header>
 
-    {/* About Section */}
+      {/* About Section */}
       <div>
         <div className="container-xxl py-5">
           <div className="container mt-5">
@@ -161,9 +162,9 @@ const About = () => {
                 <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
                   © <a href="https://webgenius-eight.vercel.app" target='_blank' rel='noreferrer'>WebGenius</a>, All Right Reserved.
                 </div>
-                <div className="col-md-6 text-center text-md-end">
+                {/* <div className="col-md-6 text-center text-md-end">
                   Designed By <a href="https://abdullahjagrala.vercel.app">Abdullah Jagrala</a> | <a href="https://fuzailkaradia.vercel.app">Fuzail Karadia</a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

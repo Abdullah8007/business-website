@@ -68,9 +68,9 @@ const Footer = () => {
                             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
                                 © <a href="https://webgenius-eight.vercel.app" target='_blank' rel='noreferrer'>WebGenius</a>, All Right Reserved.
                             </div>
-                            <div className="col-md-6 text-center text-md-end">
+                            {/* <div className="col-md-6 text-center text-md-end">
                                 Designed By <a href="https://abdullahjagrala.vercel.app">Abdullah Jagrala</a> | <a href="https://fuzailkaradia.vercel.app">Fuzail Karadia</a>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
