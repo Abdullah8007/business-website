@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
 import '../styles/FooterStyle.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -12,7 +13,7 @@ const Footer = () => {
                             <h5 className="text-light mb-4">Address</h5>
                             <p className="mb-2"><i className="fa fa-map-marker-alt me-3" />Western Park, Kashimira, Mira Road(E), Thane-401107</p>
                             <p className="mb-2"><i className="fa fa-phone-alt me-3" />+91 9359108007 | +91 9892488862</p>
-                            <p className="mb-2"><i className="fa fa-envelope me-3" />info@example.com</p>
+                            <p className="mb-2"><i className="fa fa-envelope me-3" />westcoders@outlook.com</p>
                             <div className="d-flex pt-2">
                                 <a className="btn btn-square btn-outline-secondary rounded-circle me-1" href><i className="fab fa-twitter" /></a>
                                 <a className="btn btn-square btn-outline-secondary rounded-circle me-1" href><i className="fab fa-facebook-f" /></a>
@@ -22,9 +23,9 @@ const Footer = () => {
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <h5 className="text-light mb-4">Quick Links</h5>
-                            <a className="btn btn-link" href>About Us</a>
-                            <a className="btn btn-link" href>Contact Us</a>
-                            <a className="btn btn-link" href>Our Services</a>
+                            <Link to='/about'><a className="btn btn-link" href>About</a></Link>
+                            <Link to='/contact'><a className="btn btn-link" href>Contact</a></Link>
+                            <Link to='/projects'><a className="btn btn-link" href>Projects</a></Link>
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <h5 className="text-light mb-4">Gallery</h5>
