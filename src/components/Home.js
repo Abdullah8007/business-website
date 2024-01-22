@@ -70,7 +70,7 @@ const Home = () => {
       </div>
 
       {/* About Section */}
-      {/* <div className="container-xxl py-5">
+      <div className="container-xxl py-5">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -88,7 +88,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
       {/* Service Section */}
       <div className="container-xxl py-5">
@@ -107,7 +107,7 @@ const Home = () => {
             <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
               <a className="service-item d-block rounded text-center h-100 p-4" href>
                 <img className="img-fluid rounded mb-4" src="img/service-2.jpg" alt />
-                <h4 className="mb-0">App Development</h4>
+                <h4 className="mb-0">Web Development</h4>
               </a>
             </div>
             <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">

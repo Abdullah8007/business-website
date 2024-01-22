@@ -4789,7 +4789,7 @@ fieldset:disabled .btn {
 
 .navbar-dark .navbar-nav .show>.nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #fff
+    /* color: #fff */
 }
 
 .navbar-dark .navbar-toggler {

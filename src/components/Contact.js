@@ -10,14 +10,14 @@ const Contact = () => {
 
     return (
         <>
-        {/* Header Section */}
+            {/* Header Section */}
             <Header />
 
             {/* Contact Section */}
             <div>
-                <div className="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+                <div className="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s">
                     <div className="container text-center py-5">
-                        <h1 className="display-4 text-white animated slideInDown mb-3">Contact</h1>
+                        <h1 className="display-4 text-white animated pt-5 slideInDown">Contact</h1>
                     </div>
                 </div>
                 <div className="container-xxl py-5">

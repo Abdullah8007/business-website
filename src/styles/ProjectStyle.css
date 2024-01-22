@@ -1,0 +1,10 @@
+.project-section .projects {
+    width: 330px;
+}
+
+.project-section .projects-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

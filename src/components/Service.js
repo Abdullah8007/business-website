@@ -14,9 +14,9 @@ const Service = () => {
       <Header />
 
       {/* Service Section */}
-      <div className="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+      <div className="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s">
         <div className="container text-center py-5">
-          <h1 className="display-4 text-white animated slideInDown mb-3">Services</h1>
+          <h1 className="display-4 text-white animated pt-5 slideInDown">Service</h1>
         </div>
       </div>
 
@@ -36,7 +36,7 @@ const Service = () => {
             <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
               <a className="service-item d-block rounded text-center h-100 p-4" href>
                 <img className="img-fluid rounded mb-4" src="img/service-2.jpg" alt />
-                <h4 className="mb-0">App Development</h4>
+                <h4 className="mb-0">Web Development</h4>
               </a>
             </div>
             <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
