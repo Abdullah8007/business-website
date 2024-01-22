@@ -37,3 +37,9 @@ header .bg-primary .sticky {
     transform: none;
   }
 }
+
+@media (max-width: 768px) {
+  #header .top-head {
+    display: none;
+  }
+}

@@ -23,7 +23,7 @@ const Service = () => {
         <div className='container-fluid bg-primary'>
           <div className={`${nav === true ? "sticky" : ""} `}>
             <nav className="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-0 wow fadeIn container" data-wow-delay="0.1s">
-              <a href="https://webgenius-eight.vercel.app" className="navbar-brand ms-3">Web<span className='text-dark'>Genius</span></a>
+              <a href="https://webgenius-eight.vercel.app" className="navbar-brand ms-3">West<span className='text-dark'>Coders</span></a>
               <button type="button" className="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span className="navbar-toggler-icon" />
               </button>
@@ -93,8 +93,6 @@ const Service = () => {
                 <a className="btn btn-link" href>About Us</a>
                 <a className="btn btn-link" href>Contact Us</a>
                 <a className="btn btn-link" href>Our Services</a>
-                {/* <a className="btn btn-link" href>Terms &amp; Condition</a>
-                <a className="btn btn-link" href>Support</a> */}
               </div>
               <div className="col-lg-4 col-md-6">
                 <h5 className="text-light mb-4">Gallery</h5>
@@ -132,17 +130,13 @@ const Service = () => {
           <div className="container-fluid copyright">
             <div className="container">
               <div className="row">
-                <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                  © <a href="https://webgenius-eight.vercel.app" target='_blank' rel='noreferrer'>WebGenius</a>, All Right Reserved.
+                <div className="col-12 text-center mb-md-0">
+                  © <a href="https://webgenius-eight.vercel.app" target='_blank' rel='noreferrer'>WestCoders</a>, All Right Reserved.
                 </div>
-                {/* <div className="col-md-6 text-center text-md-end">
-                  Designed By <a href="https://abdullahjagrala.vercel.app">Abdullah Jagrala</a> | <a href="https://fuzailkaradia.vercel.app">Fuzail Karadia</a>
-                </div> */}
               </div>
             </div>
           </div>
         </div>
-        {/* <button className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><Link to="header" spy={true} smooth={true} offset={0} duration={100}><i className="bi bi-arrow-up" /></Link></button> */}
       </div>
     </>
   )

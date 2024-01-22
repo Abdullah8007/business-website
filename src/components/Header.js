@@ -16,7 +16,7 @@ const Header = () => {
 
     return (
       <div id='header'>
-        <div className="container-fluid py-4 px-5 wow fadeIn" data-wow-delay="0.1s">
+        <div className="container-fluid py-4 wow fadeIn top-head" data-wow-delay="0.1s">
           <div className="row align-items-center justify-content-center top-bar">
             <div className="col-lg-8 col-md-7 d-none d-lg-block">
               <div className="row">
@@ -62,7 +62,7 @@ const Header = () => {
           <div className='container-fluid bg-primary'>
             <div className={`${nav === true ? "sticky" : ""} `}>
               <nav className="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-0 wow fadeIn container" data-wow-delay="0.1s">
-                <a href="#" className="navbar-brand ms-3">Eclipse<span className='text-dark'>Code</span></a>
+                <a href="#" className="navbar-brand ms-3">West<span className='text-dark'>Coders</span></a>
                 <button type="button" className="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                   <span className="navbar-toggler-icon" />
                 </button>

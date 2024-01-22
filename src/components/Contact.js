@@ -1,9 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/iframe-has-title */
-import { React, useState } from 'react';
+import { React, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/FooterStyle.css';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
     const [nav, setNav] = useState(false);
@@ -15,6 +16,19 @@ const Contact = () => {
 
     window.addEventListener("scroll", changeValueOnScroll);
 
+    const form = useRef()
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_p3ni5em', 'template_rx84hnm', form.current, 'Hx3WVWHd8ydmqLeQz')
+          .then(() => {
+            if(!alert("Form Submitted Successfully!!!"));
+          }).catch(() => {
+            alert("Failed to Submit Form.");
+          });
+          e.target.reset()
+      };
 
     return (
         <>
@@ -22,7 +36,7 @@ const Contact = () => {
                 <div className='container-fluid bg-primary'>
                     <div className={`${nav === true ? "sticky" : ""} `}>
                         <nav className="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-0 wow fadeIn container" data-wow-delay="0.1s">
-                            <a href="https://webgenius-eight.vercel.app" className="navbar-brand ms-3">Web<span className='text-dark'>Genius</span></a>
+                            <a href="https://webgenius-eight.vercel.app" className="navbar-brand ms-3">West<span className='text-dark'>Coders</span></a>
                             <button type="button" className="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                                 <span className="navbar-toggler-icon" />
                             </button>
@@ -51,29 +65,29 @@ const Contact = () => {
                         </div>
                         <div className="row g-0 justify-content-center">
                             <div className="col-lg-8 wow fadeInUp" data-wow-delay="0.5s">
-                                <form>
+                                <form ref={form} onSubmit={sendEmail}>
                                     <div className="row g-3">
                                         <div className="col-md-6">
                                             <div className="form-floating">
-                                                <input type="text" className="form-control" id="name" placeholder="Your Name" />
+                                                <input type="text" className="form-control" id="name" name='user_name' placeholder="Your Name" />
                                                 <label htmlFor="name">Your Name</label>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="form-floating">
-                                                <input type="email" className="form-control" id="email" placeholder="Your Email" />
+                                                <input type="email" className="form-control" id="email" name='user_email' placeholder="Your Email" />
                                                 <label htmlFor="email">Your Email</label>
                                             </div>
                                         </div>
                                         <div className="col-12">
                                             <div className="form-floating">
-                                                <input type="text" className="form-control" id="subject" placeholder="Subject" />
+                                                <input type="text" className="form-control" id="subject" name='subject' placeholder="Subject" />
                                                 <label htmlFor="subject">Subject</label>
                                             </div>
                                         </div>
                                         <div className="col-12">
                                             <div className="form-floating">
-                                                <textarea className="form-control" placeholder="Leave a message here" id="message" style={{ height: 200 }} defaultValue={""} />
+                                                <textarea className="form-control" placeholder="Leave a message here" name='message' id="message" style={{ height: 200 }} defaultValue={""} />
                                                 <label htmlFor="message">Message</label>
                                             </div>
                                         </div>
@@ -86,7 +100,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
+                <div className="container-xxl pt-5 px-sm-3 wow fadeIn" data-wow-delay="0.1s">
                     <iframe className="w-100 mb-n2" style={{ height: 450 }} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.202573044232!2d72.88796107580961!3d19.27355494573959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b07c4fb0f457%3A0x5013987f12dadb34!2sWestern%20Park!5e0!3m2!1sen!2sin!4v1705691246435!5m2!1sen!2sin" frameBorder={0} allowFullScreen aria-hidden="false" tabIndex={0} />
                 </div>
             </div>
@@ -113,8 +127,6 @@ const Contact = () => {
                                 <a className="btn btn-link" href>About Us</a>
                                 <a className="btn btn-link" href>Contact Us</a>
                                 <a className="btn btn-link" href>Our Services</a>
-                                {/* <a className="btn btn-link" href>Terms &amp; Condition</a>
-                            <a className="btn btn-link" href>Support</a> */}
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <h5 className="text-light mb-4">Gallery</h5>
@@ -152,17 +164,13 @@ const Contact = () => {
                     <div className="container-fluid copyright">
                         <div className="container">
                             <div className="row">
-                                <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                                    © <a href="https://webgenius-eight.vercel.app" target='_blank' rel='noreferrer'>WebGenius</a>, All Right Reserved.
+                                <div className="col-12 text-center mb-md-0">
+                                    © <a href="https://webgenius-eight.vercel.app" target='_blank' rel='noreferrer'>WestCoders</a>, All Right Reserved.
                                 </div>
-                                {/* <div className="col-md-6 text-center text-md-end">
-                                    Designed By <a href="https://abdullahjagrala.vercel.app">Abdullah Jagrala</a> | <a href="https://fuzailkaradia.vercel.app">Fuzail Karadia</a>
-                                </div> */}
                             </div>
                         </div>
                     </div>
                 </div>
-                {/* <button className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><Link to="header" spy={true} smooth={true} offset={0} duration={100}><i className="bi bi-arrow-up" /></Link></button> */}
             </div>
         </>
     )

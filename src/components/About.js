@@ -22,7 +22,7 @@ const About = () => {
         <div className='container-fluid bg-primary'>
           <div className={`${nav === true ? "sticky" : ""} `}>
             <nav className="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-0 wow fadeIn container" data-wow-delay="0.1s">
-              <a href="https://webgenius-eight.vercel.app" className="navbar-brand ms-3">Web<span className='text-dark'>Genius</span></a>
+              <a href="https://webgenius-eight.vercel.app" className="navbar-brand ms-3">West<span className='text-dark'>Coders</span></a>
               <button type="button" className="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span className="navbar-toggler-icon" />
               </button>
@@ -54,9 +54,8 @@ const About = () => {
                 <div className="h-100">
                   <h6 className="section-title bg-white text-start text-primary pe-3">About Us</h6>
                   <h1 className="display-6 mb-4">#1 Web Development Agency With <span className="text-primary">1 Year</span> Of Experience</h1>
-                  <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                  <p className="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.</p>
-                  <a className="btn btn-primary rounded-pill py-3 px-5" href>Read More</a>
+                  <p>We measure our success by the success stories of our clients. The websites we develop aren't just lines of code; they are pathways to your success. From enhancing your brand's online presence to driving conversions and engagement, we take pride in being a part of your achievements</p>
+                <p>Beyond Boundaries, Beyond Code: At <span className='text-primary fs-4'>CodeNexus</span>, we're not just web developers; we're digital storytellers, architects of online experiences, and champions of innovation. Our passion for pushing boundaries translates into web solutions that redefine possibilities.</p>
                 </div>
               </div>
             </div>
@@ -120,8 +119,6 @@ const About = () => {
                 <a className="btn btn-link" href>About Us</a>
                 <a className="btn btn-link" href>Contact Us</a>
                 <a className="btn btn-link" href>Our Services</a>
-                {/* <a className="btn btn-link" href>Terms &amp; Condition</a>
-                <a className="btn btn-link" href>Support</a> */}
               </div>
               <div className="col-lg-4 col-md-6">
                 <h5 className="text-light mb-4">Gallery</h5>
@@ -159,17 +156,13 @@ const About = () => {
           <div className="container-fluid copyright">
             <div className="container">
               <div className="row">
-                <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                  © <a href="https://webgenius-eight.vercel.app" target='_blank' rel='noreferrer'>WebGenius</a>, All Right Reserved.
+                <div className="col-12 text-center mb-md-0">
+                  © <a href="https://webgenius-eight.vercel.app" target='_blank' rel='noreferrer'>WestCoders</a>, All Right Reserved.
                 </div>
-                {/* <div className="col-md-6 text-center text-md-end">
-                  Designed By <a href="https://abdullahjagrala.vercel.app">Abdullah Jagrala</a> | <a href="https://fuzailkaradia.vercel.app">Fuzail Karadia</a>
-                </div> */}
               </div>
             </div>
           </div>
         </div>
-        {/* <button className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><Link to="header" spy={true} smooth={true} offset={0} duration={100}><i className="bi bi-arrow-up" /></Link></button> */}
       </div>
     </>
   )
