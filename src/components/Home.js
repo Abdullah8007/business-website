@@ -53,7 +53,7 @@ const Home = () => {
               <div className="carousel-caption">
                 <div className="p-3" style={{ maxWidth: 900 }}>
                   <h4 className="text-white text-uppercase mb-4 animated zoomIn">We Are Leader In</h4>
-                  <h1 className="display-1 text-white mb-0 animated zoomIn">Creative &amp; Innovative Digital Solution</h1>
+                  <h1 className="display-1 text-white mb-0 animated zoomIn">Making Responsive Websites</h1>
                 </div>
               </div>
             </div>
