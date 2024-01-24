@@ -44,7 +44,7 @@ const Contact = () => {
                                         </div>
                                         <div className="col-12">
                                             <div className="form-floating">
-                                                <input type="text" className="form-control" id="subject" name='text' placeholder="Subject" />
+                                                <input type="text" className="form-control" id="subject" name='subject' placeholder="Subject" />
                                                 <label htmlFor="subject">Subject</label>
                                             </div>
                                         </div>
