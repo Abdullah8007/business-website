@@ -29,7 +29,7 @@ const Projects = () => {
             <h1 className="display-6 mb-4">Learn More About Our Complete Projects</h1>
           </div>
           <div className="owl-carousel project-carousel wow fadeInUp projects-head bg-white" data-wow-delay="0.1s">
-            <div className="project-item border rounded h-100 p-4 m-3 projects" data-dot={1}>
+            <div className="project-item border rounded h-100 p-4 m-lg-3 m-sm-0 projects" data-dot={1}>
               <div className="position-relative mb-4">
                 <img className="img-fluid rounded" src="img/Balwa-Project.png" alt />
                 <a href="img/Balwa-Project.png" data-lightbox="project"><i className="fa fa-eye fa-2x" /></a>

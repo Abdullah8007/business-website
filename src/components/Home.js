@@ -81,7 +81,7 @@ const Home = () => {
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
               <div className="h-100">
                 <h6 className="section-title bg-white text-start text-primary pe-3">About Us</h6>
-                <h1 className="display-6 mb-4">#1 Web Development Agency With <span className="text-primary">1 Year</span> Of Experience</h1>
+                <h1 className="display-6 mb-4">#1 Web Development Agency With <span className="text-primary">Several</span> Of Experience</h1>
                 <p>We measure our success by the success stories of our clients. The websites we develop aren't just lines of code; they are pathways to your success. From enhancing your brand's online presence to driving conversions and engagement, we take pride in being a part of your achievements</p>
                 <p>Beyond Boundaries, Beyond Code: At <span className='text-primary fs-4'>WestCoders</span>, we're not just web developers; we're digital storytellers, architects of online experiences, and champions of innovation. Our passion for pushing boundaries translates into web solutions that redefine possibilities.</p>
               </div>
