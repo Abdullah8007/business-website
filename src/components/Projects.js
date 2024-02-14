@@ -28,13 +28,13 @@ const Projects = () => {
             <h6 className="section-title bg-white text-center text-primary px-3">Our Projects</h6>
             <h1 className="display-6 mb-4">Learn More About Our Complete Projects</h1>
           </div>
-          <div className="owl-carousel project-carousel wow fadeInUp projects-head bg-white" data-wow-delay="0.1s">
-            <div className="project-item border rounded h-100 p-4 m-lg-3 m-sm-0 projects" data-dot={1}>
+          <div className="project-carousel wow fadeInUp projects-head bg-white" data-wow-delay="0.1s">
+            <div className="project-item border rounded h-100 p-3 m-lg-3 m-sm-0 projects">
               <div className="position-relative mb-4">
                 <img className="img-fluid rounded" src="img/Balwa-Project.png" alt />
-                <a href="img/Balwa-Project.png" data-lightbox="project"><i className="fa fa-eye fa-2x" /></a>
+                <a className='balwa' href="img/Balwa-Project.png" data-lightbox="project"><i className="fa fa-eye fa-2x" /></a>
               </div>
-              <h6>Balwa Car Cool</h6>
+              <h6><a href='https://www.balwacarcool.in/' target='_blank' rel='noreferrer'>Balwa Car Cool</a></h6>
               <span>Car Air Conditioning Service</span>
             </div>
           </div>

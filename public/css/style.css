@@ -280,7 +280,7 @@
 
 
 /*** Project ***/
-.project-item a {
+.project-item .balwa {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -296,11 +296,15 @@
     transition: .5s;
 }
 
-.project-item:hover a {
+.project-item .balwa:hover  {
     opacity: 1;
 }
 
-.project-carousel .owl-dots {
+.project-item a {
+    color: #000000;
+}
+
+/* .project-carousel .owl-dots {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -325,7 +329,7 @@
     color: #FFFFFF;
     border-color: var(--primary);
     background: var(--primary);
-}
+} */
 
 
 /*** Team ***/

@@ -68,7 +68,7 @@ const About = () => {
               <div className="fact-item bg-light rounded text-center h-100 p-5">
                 <i className="fa fa-check fa-4x text-primary mb-4" />
                 <h5 className="mb-3">Projects Done</h5>
-                <h1 className="display-5 mb-0" data-toggle="counter-up">3</h1>
+                <h1 className="display-5 mb-0" data-toggle="counter-up">1</h1>
               </div>
             </div>
           </div>
