@@ -5,7 +5,6 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Service from './components/Service';
-import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       </BrowserRouter>
-      <SpeedInsights url="https://westcoders.vercel.app/" />
     </div>
   );
 }

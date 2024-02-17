@@ -302,6 +302,11 @@
 
 .project-item a {
     color: #000000;
+    transition: .3s;
+}
+
+.project-item a:hover {
+    color: #009CFF;
 }
 
 /* .project-carousel .owl-dots {
