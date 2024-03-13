@@ -64,7 +64,7 @@ const Footer = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-12 text-center mb-md-0">
-                                © <a href="https://webgenius-eight.vercel.app" target='_blank' rel='noreferrer'>WestCoders</a>, All Right Reserved.
+                                © <aa><span>West</span>Coders</aa>, All Right Reserved.
                             </div>
                         </div>
                     </div>

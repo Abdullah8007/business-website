@@ -1,3 +1,12 @@
 .footer-section .row {
     text-align: left;
 }
+
+.footer-section aa {
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-section aa span {
+    color: #009CFF;
+}
