@@ -148,7 +148,7 @@ const Home = () => {
               </div>
               <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div className="team-item text-center p-4">
-                  <img className="img-fluid border rounded-circle w-75 p-2 mb-4" src="img/abdullah.jpg" alt />
+                  <img className="img-fluid border rounded-circle w-75 p-2 mb-4" src="img/Abdullah.png" alt />
                   <div className="team-text">
                     <div className="team-title">
                       <h5>Abdullah Jagrala</h5>
