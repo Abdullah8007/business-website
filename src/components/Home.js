@@ -129,7 +129,7 @@ const Home = () => {
               <h1 className="display-6 mb-4">We Are A Creative Team For Your Dream Project</h1>
             </div>
             <div className="row g-4">
-              <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              {/* <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div className="team-item text-center p-4">
                   <img className="img-fluid border rounded-circle w-75 p-2 mb-4" src="img/fuzail.jpg" alt />
                   <div className="team-text">
@@ -145,10 +145,10 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div className="team-item text-center p-4">
-                  <img className="img-fluid border rounded-circle w-75 p-2 mb-4" src="img/Abdullah.png" alt />
+                  <img className="img-fluid border rounded-circle w-75 p-2 mb-4" src="img/Abdullah_J.jpg" alt />
                   <div className="team-text">
                     <div className="team-title">
                       <h5>Abdullah Jagrala</h5>
